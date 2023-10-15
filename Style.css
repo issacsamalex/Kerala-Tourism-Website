@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --bs-body-font-family: 'Nunito Sans', sans-serif;
+}
+.btn-primary{
+    --bs-btn-bg: #EA910B;
+    --bs-btn-border-color: #d07d00;
+    --bs-btn-hover-bg: #d07d00;
+    --bs-btn-hover-border-color: #d07d00;
+    --bs-btn-active-bg: #b36c00;
+    --bs-btn-active-border-color: #b36c00;
+}
+.btn-outline-primary{
+    --bs-btn-color: #EA910B;
+    --bs-btn-border-color: #d07d00;
+    --bs-btn-hover-bg: #d07d00;
+    --bs-btn-hover-border-color: #d07d00;
+    --bs-btn-active-bg: #b36c00;
+    --bs-btn-active-border-color: #b36c00;
+}
+.boldcolor{
+    color: #EA910B;
+}
+.icon-link{
+    text-decoration: none;
+    
+}
