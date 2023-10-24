@@ -1,0 +1,113 @@
+#email-error{
+    position: absolute;
+    bottom: 18px;
+    right: 12px;
+    font-size: 14px;
+    color: #cc0000;
+}
+.form-floating span i{
+    color: seagreen;
+}
+#floatingInput:focus{
+    box-shadow: 0px 0px 0px 4px #ffdd99;
+    border-color: #e69900;
+}
+.show-password{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px;
+    cursor: pointer;
+    color: #b37700;
+}
+#floatingPassword:focus{
+    box-shadow: 0px 0px 0px 4px #ffdd99;
+    border-color: #e69900;
+}
+#message{
+    position: absolute;
+    bottom: -40px;
+    font-size: 15px;
+    display: none;
+}
+
+.password-checklist{
+    position: absolute;
+    top: calc(60% + 50px);
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgba(63, 42, 0, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 5px 10px 5px rgb(232, 232, 232);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: .5s ease;
+}
+#floatingPassword:focus ~ .password-checklist{
+    opacity: 1;
+    transform: translateY(0);
+}
+.checklist-title{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.checklist{
+    list-style: none;
+    color: #ffffff;
+}
+.list-item{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.list-item::before{
+    content: '\f00d';
+    font-family: FontAwesome;
+    display: inline-block;
+    margin: 8px 0px;
+    margin-left: -30px;
+    width: 20px;
+    font-size: 12px;
+}
+.list-item.checked{
+    opacity: 0.5;
+}
+.list-item.checked::before{
+    content: '\f00c';
+}
+#phone-error{
+    position: absolute;
+    bottom: 18px;
+    right: 12px;
+    font-size: 14px;
+    color: #cc0000;
+}
+#floatingInputContact:focus{
+    box-shadow: 0px 0px 0px 4px #ffdd99;
+    border-color: #e69900;
+}
+#fname-error{
+    position: absolute;
+    bottom: 18px;
+    right: 12px;
+    font-size: 14px;
+    color: #cc0000;
+}
+#floatingInputFname:focus{
+    box-shadow: 0px 0px 0px 4px #ffdd99;
+    border-color: #e69900;
+}
+#lname-error{
+    position: absolute;
+    bottom: 18px;
+    right: 12px;
+    font-size: 14px;
+    color: #cc0000;
+}
+#floatingInputLname:focus{
+    box-shadow: 0px 0px 0px 4px #ffdd99;
+    border-color: #e69900;
+}
